@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+}
+
+.primer-segmento {
+    position: relative;
+    float: left;
+    background-color: blueviolet;
+    width: 100%;
+    height: 10%;
+}
+
+.segundo-segmento {
+    position: relative;
+    float: left;
+    background-color: aqua;
+    width: 100%;
+    height: 15%;
+}
+
+.tercer-segmento {
+    position: relative;
+    float: left;
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 15%;
+}
+
+.cuarto-segmento{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 60%;
+    background-color: purple;
+}
+
+.tercio{
+    position: relative;
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    background-color: yellowgreen;
+}
+
+.cuarto{
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: palevioletred;
+}
+
+.medio {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: orange;
+}
+
+.negro {
+    background-color: black;
+}
+
+.violeta {
+    background-color: violet;
+}

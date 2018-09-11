@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    background-color: #F7F7F7;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background-color: #FFF059;
+}
+
+.logo {
+    width: 30%;
+    height: 100%;
+}
+
+.logo > img {
+    width: 45%;
+    height: 55%;
+    margin: 15px 10px;
+}
+
+.login {
+
+}
+
+.login > input {
+
+}

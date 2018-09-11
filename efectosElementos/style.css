@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background-color: #FFF059;
+}
+
+#afer-header{
+    position: relative;
+    width: 100%;
+    height: 45%;
+    background-color: #FFF059;
+}
+
+.logo {
+    width: 30%;
+    height: 100%;
+}
+
+.logo > img {
+    width: 45%;
+    height: 55%;
+    margin: 15px 10px;
+}
+
+.login {
+    position: absolute;
+    top: 40%;
+    width: 30%;
+    height: 45%;
+    right: 35%;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+.btn {
+    width: 250px;
+    height: 40px;
+    transition: 0.5s all;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: "Helvetica", sans-serif;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px; 
+    outline: none;
+}
+
+.azul {
+    background: #3483FA;
+    color: white;
+}
+
+.rosa {
+    background: #F15B98;
+    color: #3483FA;
+}
+
+.btn:hover{
+    background: #78ADFC;
+    width: 250px;
+}
+
+input[type="text"]{
+    font-family: "Helvetica", sans-serif;
+    font-size: 1em;
+    width: 250px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #3483FA;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.content-title {
+    width: 250px;
+    display: block;
+    margin:0 auto;
+    margin-top: 10%;
+}
+
+.title{
+    font-size: .8em;
+    text-decoration: none;
+    text-align: left;
+    font-family: "Helvetica", sans-serif;
+    color:gray;
+    font-weight: lighter; 
+}
+
+.crear-cuenta {
+    text-decoration: none;
+    text-align: center;
+    font-family: "Helvetica", sans-serif;
+    color: #3483FA;
+    display: block;
+    margin:0 auto;
+    margin-top: 20px;
+}
+
+.content {
+    position: relative;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.content > img {
+    display: block;
+    margin: 0 auto;
+}
+
+.content h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Helvetica", sans-serif;
+    line-height: 1.17;
+    font-weight: lighter;
+}
+
+
+
+

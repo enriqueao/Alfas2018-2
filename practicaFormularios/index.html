@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Practica Formularios</title>
+</head>
+<body>
+    <form action="#">
+        <label for="primerApellido">Primer Apellido:</label>
+        <input type="search">
+        <input type="text" name="primerApellido" maxlength="10" placeholder="Primer Apellido" id="primerApellido">
+        <br>
+        <label for="correo">Correo:</label>
+        <input type="email" name="correo">
+        <br>
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" name="fechaNacimiento">
+        <h3>Grado Escolar</h3>
+        <label for="kinder">Kinder:</label>
+        <input type="checkbox" name ="kinder">
+        <label for="primaria">Primaria:</label>
+        <input type="checkbox" name="primaria">
+        <h3>Genero</h3>
+        <label for="masculino">Masculino:</label>
+        <input type="radio" value="M" name="genero" id="masculino">
+        <label for="femenino">Femenino:</label>
+        <input type="radio" value="F" name="genero" id="femenino">
+        <br>
+        <input type="time" required>
+        <input type="number" min="0" max="4" required>
+        <input type="color">
+        <input type="file">
+        <input type="url">
+        <input type="hidden">
+        <input type="week">
+        <input type="button" value="Enviar Formulario">
+        <input type="reset" value="Vaciar Formulario">
+        <input type="submit" value="Enviar Formulario">
+    </form>
+</body>
+</html>

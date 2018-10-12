@@ -42,7 +42,6 @@ header {
     background-color: white;
     padding: 20px;
     box-sizing: border-box;
-    align-items: center;
     border-radius: 5px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     z-index: 2;
@@ -75,7 +74,6 @@ header {
 
 .btn:hover{
     background: #78ADFC;
-    width: 250px;
 }
 
 input[type="text"]{
@@ -83,12 +81,11 @@ input[type="text"]{
     font-size: 1em;
     width: 250px;
     border: 0;
-    outline: 0;
-    background: transparent;
+    outline: none;
     border-bottom: 2px solid #3483FA;
     display: block;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 20px;   
 }
 
 .content-title {
@@ -104,7 +101,7 @@ input[type="text"]{
     text-align: left;
     font-family: "Helvetica", sans-serif;
     color:gray;
-    font-weight: lighter; 
+    font-weight: 300; 
 }
 
 .crear-cuenta {

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Colores</title>
+
+    <script src="./funcion.js"></script>
+</head>
+<body>
+    <style>
+        #contenedorColor{
+            width: 200px;
+            height: 200px;
+            border: 2px black solid;
+        }
+    </style>
+    <div id="contenedorColor"></div>
+    <label for="color">Selecciona un color</label>
+    <input type="color" name="color" id="color" onchange="cambiarColor()">
+    <input type="text" name="textColor" id="textColor" oninput="cambiarColorTexto()">
+    <p id="entrada"></p>
+    <button onclick="cambiarColor()">Cambiar</button>
+</body>
+</html>
